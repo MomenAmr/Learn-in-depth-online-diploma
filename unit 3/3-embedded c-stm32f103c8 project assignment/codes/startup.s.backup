@@ -1,0 +1,37 @@
+@@ startup.s * Created on: Jun 15, 2022 * Author: momen amr
+
+.section .vectors
+.word	0x20001000		/* 2- stack address	*/
+.word	_reset			/* 1- reset		*/
+.word	vector_handler		/* 2- NMI		*/
+.word	vector_handler		/* 3- HARD FAULT	*/
+.word	vector_handler		/* 4- MM FAULT		*/
+.word	vector_handler		/* 5- BUS FAULT		*/
+.word	vector_handler		/* 6- USAGE FAULT	*/
+.word	vector_handler		/* 7- RESERVED 		*/
+.word	vector_handler		/* 8- RESERVED 		*/
+.word	vector_handler		/* 9- RESERVED 		*/
+.word	vector_handler		/*10- RESERVED 		*/
+.word	vector_handler		/*11- 			*/
+.word	vector_handler		/*12- 			*/
+.word	vector_handler		/*13-	 		*/
+.word	vector_handler		/*14- 			*/
+.word	vector_handler		/*15- 			*/
+.word	vector_handler		/*16- 			*/
+.word	vector_handler		/*17- 			*/
+.word	vector_handler		/*18- 			*/
+.word	vector_handler		/*19- 			*/
+.word	vector_handler		/*20- 			*/
+.word	vector_handler		/*21- 	 		*/
+.word	vector_handler		/*22- 	 		*/
+.word	vector_handler		/*23- 	 		*/
+.word	vector_handler		/*24- 	 		*/
+
+.section .text
+_reset:
+	bl main
+	b .
+
+.thumb_func
+vector_handler:
+	b _reset
