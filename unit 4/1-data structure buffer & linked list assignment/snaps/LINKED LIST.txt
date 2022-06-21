@@ -1,0 +1,513 @@
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:4
+
+the list is empty !!!
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:1
+
+enter the ID: 1
+enter the name: momen
+enter the height: 1.73
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:1
+
+enter the ID: 2
+enter the name: amr
+enter the height: 1.68
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:1
+
+enter the ID: 3
+enter the name: mohamed
+enter the height: 1.7
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:1
+
+enter the ID: 4
+enter the name: amr
+enter the height: 1.75
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:4
+
+record number: 1
+ID: 1
+name: momen
+height: 1.730000
+
+record number: 2
+ID: 2
+name: amr
+height: 1.680000
+
+record number: 3
+ID: 3
+name: mohamed
+height: 1.700000
+
+record number: 4
+ID: 4
+name: amr
+height: 1.750000
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:3
+
+enter index to be displayed:1
+
+ID: 2
+name: amr
+height: 1.680000
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:6
+
+the list is successfully reversed !!!
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:4
+
+record number: 1
+ID: 4
+name: amr
+height: 1.750000
+
+record number: 2
+ID: 3
+name: mohamed
+height: 1.700000
+
+record number: 3
+ID: 2
+name: amr
+height: 1.680000
+
+record number: 4
+ID: 1
+name: momen
+height: 1.730000
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:7
+
+ID: 2
+name: amr
+height: 1.680000
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:6
+
+the list is successfully reversed !!!
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:4
+
+record number: 1
+ID: 1
+name: momen
+height: 1.730000
+
+record number: 2
+ID: 2
+name: amr
+height: 1.680000
+
+record number: 3
+ID: 3
+name: mohamed
+height: 1.700000
+
+record number: 4
+ID: 4
+name: amr
+height: 1.750000
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:7
+
+ID: 3
+name: mohamed
+height: 1.700000
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:1
+
+enter the ID: 5
+enter the name: attalah
+enter the height: 1.8
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:4
+
+record number: 1
+ID: 1
+name: momen
+height: 1.730000
+
+record number: 2
+ID: 2
+name: amr
+height: 1.680000
+
+record number: 3
+ID: 3
+name: mohamed
+height: 1.700000
+
+record number: 4
+ID: 4
+name: amr
+height: 1.750000
+
+record number: 5
+ID: 5
+name: attalah
+height: 1.800000
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:7
+
+ID: 3
+name: mohamed
+height: 1.700000
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:8
+
+list length is 5
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:2
+
+enter ID to be deleted from list:8
+
+the ID is not found !!!
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:2
+
+enter ID to be deleted from list:5
+
+the ID: 5 is deleted !!!
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:4
+
+record number: 1
+ID: 1
+name: momen
+height: 1.730000
+
+record number: 2
+ID: 2
+name: amr
+height: 1.680000
+
+record number: 3
+ID: 3
+name: mohamed
+height: 1.700000
+
+record number: 4
+ID: 4
+name: amr
+height: 1.750000
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:2
+
+enter ID to be deleted from list:2
+
+the ID: 2 is deleted !!!
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:4
+
+record number: 1
+ID: 1
+name: momen
+height: 1.730000
+
+record number: 2
+ID: 3
+name: mohamed
+height: 1.700000
+
+record number: 3
+ID: 4
+name: amr
+height: 1.750000
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:8
+
+list length is 3
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:7
+
+ID: 3
+name: mohamed
+height: 1.700000
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:5
+
+the list is empty !!!
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:4
+
+the list is empty !!!
+
+what operation do you wish to execute on list?
+  1-add student to list
+  2-delete student from list
+  3-find student
+  4-display list
+  5-delete list
+  6-reverse list
+  7-list middle
+  8-list length
+  9-terminate program
+your choise is:9
+program is terminated !!

@@ -1,0 +1,241 @@
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:0
+
+the stack is empty !!!
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:1
+
+the stack is empty !!!
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:2
+
+enter the element:1
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:2
+
+enter the element:2
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:2
+
+enter the element:3
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:2
+
+enter the element:4
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:2
+
+enter the element:5
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:2
+
+the stack is full !!!
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:1
+
+1 2 3 4 5 
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:3
+
+the element is: 5
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:3
+
+the element is: 4
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:1
+
+1 2 3 
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:2
+
+enter the element:6
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:2
+
+enter the element:7
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:1
+
+1 2 3 6 7 
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:3
+
+the element is: 7
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:3
+
+the element is: 6
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:3
+
+the element is: 3
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:3
+
+the element is: 2
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:4
+
+the stack is erased !!!
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:1
+
+the stack is empty !!!
+
+what operation do you wish to execute on stack?
+	0-check stack status
+	1-display stack
+	2-add element to stack
+	3-get element from stack
+	4-erase stack
+	5-terminate program
+your choise is:5
+program is terminated !!
