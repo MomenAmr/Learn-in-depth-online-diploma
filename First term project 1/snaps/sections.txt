@@ -1,0 +1,30 @@
+$ arm-none-eabi-objdump.exe -h pressure_controller.elf
+
+pressure_controller.elf:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000428  08000000  08000000  00010000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000004  20000000  08000428  00020000  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00001020  20000004  0800042c  00020004  2**2
+                  ALLOC
+  3 .debug_info   0000417b  00000000  00000000  00020004  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_abbrev 00000bfc  00000000  00000000  0002417f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_loc    00000554  00000000  00000000  00024d7b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_aranges 000000e0  00000000  00000000  000252cf  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000c12  00000000  00000000  000253af  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_str    0000079a  00000000  00000000  00025fc1  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .comment      0000007e  00000000  00000000  0002675b  2**0
+                  CONTENTS, READONLY
+ 10 .ARM.attributes 00000033  00000000  00000000  000267d9  2**0
+                  CONTENTS, READONLY
+ 11 .debug_frame  0000032c  00000000  00000000  0002680c  2**2
+                  CONTENTS, READONLY, DEBUGGING

@@ -1,0 +1,103 @@
+Welcome to the student management system
+Choose the task that you want to perform
+ 1. Add the student details manually
+ 2. Add the student details from text file
+ 3. Find the student details by roll number
+ 4. Find the student details by first name
+ 5. Find the student details by course ID
+ 6. Find the total number of students
+ 7. Delete the student details by roll number
+ 8. Update the student details by roll number
+ 9. Show all information
+10. Exit
+Enter your choice to perform the task:9
+-------------------------
+[ERROR]  Students database is empty
+-------------------------
+Choose the task that you want to perform
+ 1. Add the student details manually
+ 2. Add the student details from text file
+ 3. Find the student details by roll number
+ 4. Find the student details by first name
+ 5. Find the student details by course ID
+ 6. Find the total number of students
+ 7. Delete the student details by roll number
+ 8. Update the student details by roll number
+ 9. Show all information
+10. Exit
+Enter your choice to perform the task:2
+[INFO]  Roll number 1 was saved successfully
+[INFO]  Roll number 2 was saved successfully
+[INFO]  Roll number 3 was saved successfully
+[INFO]  Roll number 4 was saved successfully
+[INFO]  Roll number 5 was saved successfully
+[INFO]  Student details was added successfully
+-------------------------
+[INFO] The total number of students is 5
+[INFO] You can add up to 50 students
+[INFO] You can add 45 more students
+-------------------------
+Choose the task that you want to perform
+ 1. Add the student details manually
+ 2. Add the student details from text file
+ 3. Find the student details by roll number
+ 4. Find the student details by first name
+ 5. Find the student details by course ID
+ 6. Find the total number of students
+ 7. Delete the student details by roll number
+ 8. Update the student details by roll number
+ 9. Show all information
+10. Exit
+Enter your choice to perform the task:9
+
+-------------------------
+Student first name: momen
+Student last name: amr
+Student roll number: 1
+Student GPA number: 3.20
+The course ID: 1
+The course ID: 2
+The course ID: 3
+The course ID: 4
+The course ID: 5
+-------------------------
+Student first name: ahmed
+Student last name: salem
+Student roll number: 2
+Student GPA number: 2.80
+The course ID: 4
+The course ID: 5
+The course ID: 6
+The course ID: 7
+The course ID: 8
+-------------------------
+Student first name: mohammad
+Student last name: gaber
+Student roll number: 3
+Student GPA number: 3.00
+The course ID: 3
+The course ID: 5
+The course ID: 4
+The course ID: 7
+The course ID: 6
+-------------------------
+Student first name: salem
+Student last name: ahmed
+Student roll number: 4
+Student GPA number: 3.40
+The course ID: 1
+The course ID: 2
+The course ID: 3
+The course ID: 4
+The course ID: 5
+-------------------------
+Student first name: ahmed
+Student last name: said
+Student roll number: 5
+Student GPA number: 3.00
+The course ID: 5
+The course ID: 8
+The course ID: 9
+The course ID: 7
+The course ID: 4
+-------------------------

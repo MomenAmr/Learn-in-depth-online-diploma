@@ -1,0 +1,58 @@
+Welcome to the student management system
+Choose the task that you want to perform
+ 1. Add the student details manually
+ 2. Add the student details from text file
+ 3. Find the student details by roll number
+ 4. Find the student details by first name
+ 5. Find the student details by course ID
+ 6. Find the total number of students
+ 7. Delete the student details by roll number
+ 8. Update the student details by roll number
+ 9. Show all information
+10. Exit
+Enter your choice to perform the task:6
+-------------------------
+[INFO] The total number of students is 0
+[INFO] You can add up to 50 students
+[INFO] You can add 50 more students
+-------------------------
+Choose the task that you want to perform
+ 1. Add the student details manually
+ 2. Add the student details from text file
+ 3. Find the student details by roll number
+ 4. Find the student details by first name
+ 5. Find the student details by course ID
+ 6. Find the total number of students
+ 7. Delete the student details by roll number
+ 8. Update the student details by roll number
+ 9. Show all information
+10. Exit
+Enter your choice to perform the task:2
+[INFO]  Roll number 1 was saved successfully
+[INFO]  Roll number 2 was saved successfully
+[INFO]  Roll number 3 was saved successfully
+[INFO]  Roll number 4 was saved successfully
+[INFO]  Roll number 5 was saved successfully
+[INFO]  Student details was added successfully
+-------------------------
+[INFO] The total number of students is 5
+[INFO] You can add up to 50 students
+[INFO] You can add 45 more students
+-------------------------
+Choose the task that you want to perform
+ 1. Add the student details manually
+ 2. Add the student details from text file
+ 3. Find the student details by roll number
+ 4. Find the student details by first name
+ 5. Find the student details by course ID
+ 6. Find the total number of students
+ 7. Delete the student details by roll number
+ 8. Update the student details by roll number
+ 9. Show all information
+10. Exit
+Enter your choice to perform the task:6
+-------------------------
+[INFO] The total number of students is 5
+[INFO] You can add up to 50 students
+[INFO] You can add 45 more students
+-------------------------
