@@ -1,0 +1,5 @@
+main.c:34:6:CLK_init	4	static
+main.c:40:6:GPIO_init	4	static
+main.c:49:6:EXTI_init	4	static
+main.c:61:6:main	8	static
+main.c:70:6:EXTI0_IRQHandler	4	static
