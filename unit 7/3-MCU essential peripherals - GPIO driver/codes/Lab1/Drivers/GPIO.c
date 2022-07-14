@@ -204,10 +204,14 @@ void MCAL_GPIO_WRITE_PIN (GPIO_t* GPIOx , uint16_t Pin_number, uint8_t value)
 	if(value == GPIO_PIN_HIGH)
 	{
 		GPIOx->BSRR |= Pin_number;
+		GPIOx->BSRR &= ~Pin_number;
+
 	}
 	else
 	{
 		GPIOx->BRR |= Pin_number;
+		GPIOx->BRR &= ~Pin_number;
+
 	}
 }
 
