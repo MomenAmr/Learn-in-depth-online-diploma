@@ -54,46 +54,46 @@ void SEG_7_printnum(char c)
 	switch(c)
 	{
 	case ('0') :
-		MCAL_GPIO_WRITE_PORT(SEG_7, ZERO<<9);
+		MCAL_GPIO_WRITE_PORT_SEL(SEG_7, 0xFE00, ZERO<<9);
 		break;
 
 	case ('1') :
-		MCAL_GPIO_WRITE_PORT(SEG_7, ONE<<9);
+		MCAL_GPIO_WRITE_PORT_SEL(SEG_7, 0xFE00, ONE<<9);
 		break;
 
 	case ('2') :
-		MCAL_GPIO_WRITE_PORT(SEG_7, TWO<<9);
+		MCAL_GPIO_WRITE_PORT_SEL(SEG_7, 0xFE00, TWO<<9);
 		break;
 
 	case ('3') :
-		MCAL_GPIO_WRITE_PORT(SEG_7, THREE<<9);
+		MCAL_GPIO_WRITE_PORT_SEL(SEG_7, 0xFE00, THREE<<9);
 		break;
 
 	case ('4') :
-		MCAL_GPIO_WRITE_PORT(SEG_7, FOUR<<9);
+		MCAL_GPIO_WRITE_PORT_SEL(SEG_7, 0xFE00, FOUR<<9);
 		break;
 
 	case ('5') :
-		MCAL_GPIO_WRITE_PORT(SEG_7, FIVE<<9);
+		MCAL_GPIO_WRITE_PORT_SEL(SEG_7, 0xFE00, FIVE<<9);
 		break;
 
 	case ('6') :
-		MCAL_GPIO_WRITE_PORT(SEG_7, SIX<<9);
+		MCAL_GPIO_WRITE_PORT_SEL(SEG_7, 0xFE00, SIX<<9);
 		break;
 
 	case ('7') :
-		MCAL_GPIO_WRITE_PORT(SEG_7, SEVEN<<9);
+		MCAL_GPIO_WRITE_PORT_SEL(SEG_7, 0xFE00, SEVEN<<9);
 		break;
 
 	case ('8') :
-		MCAL_GPIO_WRITE_PORT(SEG_7, EIGHT<<9);
+		MCAL_GPIO_WRITE_PORT_SEL(SEG_7, 0xFE00, EIGHT<<9);
 		break;
 
 	case ('9') :
-		MCAL_GPIO_WRITE_PORT(SEG_7, NINE<<9);
+		MCAL_GPIO_WRITE_PORT_SEL(SEG_7, 0xFE00, NINE<<9);
 		break;
 
 	default :
-		MCAL_GPIO_WRITE_PORT(SEG_7, NONE<<9);
+		MCAL_GPIO_WRITE_PORT_SEL(SEG_7, 0xFE00, NONE<<9);
 	}
 }

@@ -112,7 +112,7 @@ void MCAL_GPIO_Init (GPIO_t* GPIOx , GPIO_PIN_CNFQ_t* PinConfig)
 		//if PU input then set the according bit in ODR
 		if (0x01 & PinConfig->MODE)
 		{
-			GPIOx->ODR |= PinConfig->PIN_NUMBER;
+			GPIOx->BSRR = PinConfig->PIN_NUMBER;
 		}
 	}
 	//set the according 4 bits for pin
@@ -203,15 +203,11 @@ void MCAL_GPIO_WRITE_PIN (GPIO_t* GPIOx , uint16_t Pin_number, uint8_t value)
 {
 	if(value == GPIO_PIN_HIGH)
 	{
-		GPIOx->BSRR |= Pin_number;
-		GPIOx->BSRR &= ~Pin_number;
-
+		GPIOx->BSRR = Pin_number;
 	}
 	else
 	{
-		GPIOx->BRR |= Pin_number;
-		GPIOx->BRR &= ~Pin_number;
-
+		GPIOx->BRR = Pin_number;
 	}
 }
 
@@ -260,4 +256,19 @@ uint16_t MCAL_GPIO_READ_PORT (GPIO_t* GPIOx)
 void MCAL_GPIO_WRITE_PORT (GPIO_t* GPIOx , uint16_t value)
 {
 	GPIOx->ODR = value ;
+}
+
+/**================================================================
+ * @Fn				-MCAL_GPIO_WRITE_PORT_SEL
+ * @brief 			-Write on selective pins on port according to mask
+ * @param [in] 		-GPIOx: where x can be ( A..E depending on device used ) to select the GPIO peripheral
+ * @param [in] 		-mask: identify the selective pins
+ * @param [in] 		-Value: selective pins Value
+ * @retval 			-None
+ * Note				-None
+ * */
+void MCAL_GPIO_WRITE_PORT_SEL (GPIO_t* GPIOx , uint16_t mask , uint16_t value)
+{
+	GPIOx->BSRR = mask & value;
+	GPIOx->BRR = mask & (~value);
 }

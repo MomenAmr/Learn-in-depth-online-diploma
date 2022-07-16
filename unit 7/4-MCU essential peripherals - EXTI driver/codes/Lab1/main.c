@@ -24,84 +24,61 @@
 #include "stm32f103x6.h"
 #include "GPIO.h"
 #include "LCD.h"
-#include "KEYPAD.h"
-#include "SEG_7.h"
+#include "EXTI.h"
+
+int IRQ_Flag = 1;
 
 void CLK_init ()
 {
 	//enable clock for GPIOA & GPIOB
-	RCC_CLOCK_GPIOA_EN() ;
-	RCC_CLOCK_GPIOB_EN() ;
+	RCC_CLOCK_GPIOA_EN ;
+	RCC_CLOCK_GPIOB_EN ;
+	RCC_CLOCK_AFIO_EN;
 
 }
 
 void delay_loop(int x)
 {
-	int i;
-	for(i=0;i<x;i++);
+	int i,j;
+	for(i=0;i<255;i++)
+	{
+		for(j=0;j<x;j++);
+	}
+}
+
+void EXTI9_callback(void)
+{
+	IRQ_Flag=1;
+	LCD_send_string("IRQ9 is pinned & being serviced");
+	delay_loop(1000);
+
+
 }
 
 int main(void)
 {
-	char c;
-	int i=0;
-	unsigned char seg_init[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0','n'};
-
 	CLK_init();
 
 	LCD_init();
 	LCD_send_string("LCD");
 	LCD_send_command(LCD_BEGIN_AT_SECOND_ROW);
 	LCD_send_string("initialized");
-	delay_loop(50000);
+	delay_loop(1000);
 	LCD_send_command(LCD_CLEAR_SCREEN);
 
-	KEYPAD_init();
-	LCD_send_string("KEYPAD");
-	LCD_send_command(LCD_BEGIN_AT_SECOND_ROW);
-	LCD_send_string("initialized");
-	delay_loop(50000);
-	LCD_send_command(LCD_CLEAR_SCREEN);
-
-	SEG_7_init();
-	LCD_send_string("7-SEGMENT");
-	LCD_send_command(LCD_BEGIN_AT_SECOND_ROW);
-	LCD_send_string("initialized");
-	for(i=0;i<12;i++)
-	{
-		SEG_7_printnum(seg_init[i]);
-		delay_loop(5000);
-	}
-	LCD_send_command(LCD_CLEAR_SCREEN);
-	i=0;
+	EXTI_CNFQ_t EXTI_PB9;
+	EXTI_PB9.EXTI_PIN = EXTI9PB9;
+	EXTI_PB9.TRIG_MODE = EXTI_RISING;
+	EXTI_PB9.STATE = EXTI_EN;
+	EXTI_PB9.P_IRQ_CallBack = EXTI9_callback;
+	MCAL_EXTI_Init(&EXTI_PB9);
 
 	while (1)
     {
-		c = KEYPAD_getc();
-		switch(c)
+		if (IRQ_Flag)
 		{
-			case ('!'):
 			LCD_send_command(LCD_CLEAR_SCREEN);
-			SEG_7_printnum(c);
-			i = 0;
-			break;
-
-			case ('N'):
-			break;
-
-			default:
-			i++;
-			LCD_send_data(c);
-			SEG_7_printnum(c);
-			if (i == 16)
-			{
-				LCD_send_command(LCD_BEGIN_AT_SECOND_ROW);
-			}
-			else if (i == 32)
-			{
-				LCD_send_command(LCD_CLEAR_SCREEN);
-				i = 0;
-			}
+			IRQ_Flag = 0;
 		}
 		delay_loop(50);
     }

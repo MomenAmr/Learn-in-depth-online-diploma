@@ -96,6 +96,7 @@ void MCAL_GPIO_WRITE_PIN (GPIO_t* GPIOx , uint16_t Pin_number, uint8_t value);
 
 uint16_t MCAL_GPIO_READ_PORT (GPIO_t* GPIOx);
 void MCAL_GPIO_WRITE_PORT (GPIO_t* GPIOx , uint16_t value);
+void MCAL_GPIO_WRITE_PORT_SEL (GPIO_t* GPIOx , uint16_t mask , uint16_t value);
 
 //===================================================================================
 
