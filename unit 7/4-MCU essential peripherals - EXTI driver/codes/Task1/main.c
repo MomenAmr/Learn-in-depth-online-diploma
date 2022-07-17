@@ -5,7 +5,9 @@
  * Author : momen
  */ 
 
-#include "LCD\LCD.h"
+#include "Include/GPIO.h"
+#include "include/LCD.h"
+
 
 int main(void)
 {
@@ -13,10 +15,10 @@ int main(void)
 
 	while (1) 
     {
-		LCD_send_string("Learn in depth");
-		_delay_ms(2000);
+		LCD_send_string("Learn-in-depth");
+		wait_loop(200);
 		LCD_send_command(LCD_CLEAR_SCREEN);
-		_delay_ms(2000);
-    }
+		wait_loop(200);
+	}
 }
 

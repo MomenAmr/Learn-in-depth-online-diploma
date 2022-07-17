@@ -9,22 +9,38 @@
 #ifndef LCD_H_
 #define LCD_H_
 
-#define F_CPU 8000000UL
-#include<avr/io.h>
-#include<util/delay.h>
+//-----------------------------------------------------------------------------------
+//includes
+//-----------------------------------------------------------------------------------
 
-#define LCD_DATA PORTA
-#define DDR_LCD_DATA DDRA
-#define LCD_CTRL PORTB
-#define DDR_LCD_CTRL DDRB
+#include "GPIO.h"
 
-#define RS 1
-#define RW 2
-#define EN 3
+//===================================================================================
 
+//-----------------------------------------------------------------------------------
+//Macros configuration references
+//-----------------------------------------------------------------------------------
+
+//@ref LCD pins
+#define LCD_DATA	GPIOA
+#define D0			GPIO_PIN_0
+#define D1			GPIO_PIN_1
+#define D2			GPIO_PIN_2
+#define D3			GPIO_PIN_3
+#define D4			GPIO_PIN_4
+#define D5			GPIO_PIN_5
+#define D6			GPIO_PIN_6
+#define D7			GPIO_PIN_7
+#define LCD_CTRL	GPIOB
+#define RS 			GPIO_PIN_1
+#define RW			GPIO_PIN_2
+#define EN 			GPIO_PIN_3
+
+//@ref LCD modes
 //#define _8_BIT
 #define _4_BIT
 
+//@ref LCD commands
 #define LCD_FUNCTION_8BIT_2LINES   					(0x38)
 #define LCD_FUNCTION_4BIT_2LINES   					(0x28)
 #define LCD_MOVE_DISP_RIGHT       					(0x1C)
@@ -46,6 +62,7 @@
 #define LCD_RETURN_HOME								(0x02)
 #define LCD_ENTRY_MODE								(0x06)
 
+void wait_loop(int x);
 void LCD_init();
 void LCD_busy();
 void LCD_pulse();
