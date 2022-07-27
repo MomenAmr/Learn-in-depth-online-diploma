@@ -1,0 +1,33 @@
+/*
+ * LCD_Keypad_atmega32.c
+ *
+ * Created: 7/7/2022 1:17:05 PM
+ * Author : momen
+ */ 
+
+#define	F_CPU 8000000UL
+#include <util/delay.h>
+#include "Include/GPIO.h"
+#include "Include/I2C.h"
+
+int main(void)
+{
+	MCAL_I2C_Init(MODE_SALVE, 0, 0xF0);
+	
+	MCAL_GPIO_Init(GPIOA,GPIO_PIN_0,MODE_OUTPUT_PP);
+	MCAL_GPIO_Init(GPIOA,GPIO_PIN_1,MODE_OUTPUT_PP);
+	MCAL_GPIO_Init(GPIOA,GPIO_PIN_2,MODE_OUTPUT_PP);
+	MCAL_GPIO_Init(GPIOA,GPIO_PIN_3,MODE_OUTPUT_PP);
+	MCAL_GPIO_Init(GPIOA,GPIO_PIN_4,MODE_OUTPUT_PP);
+	MCAL_GPIO_Init(GPIOA,GPIO_PIN_5,MODE_OUTPUT_PP);
+	MCAL_GPIO_Init(GPIOA,GPIO_PIN_6,MODE_OUTPUT_PP);
+	MCAL_GPIO_Init(GPIOA,GPIO_PIN_7,MODE_OUTPUT_PP);
+	
+	uint8_t C;
+	while (1) 
+    {
+		MCAL_I2C_Read(MODE_SALVE, &C);
+		MCAL_GPIO_WRITE_PORT(GPIOA, C);
+	}
+}
+
